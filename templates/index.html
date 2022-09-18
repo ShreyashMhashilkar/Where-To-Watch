@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WHERE TO WATCH</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <center><h1 style="color:rgb(34, 7, 132) ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">WHERE TO WATCH</h1></center>
+    <br>
+    <br>
+    <div class="container">
+    <div class="card" style="background-color:black ;">
+        <div class="card-body">
+    {% block content %}
+    <br>
+    <form action="#" method="post">
+	<h4 style="color:white ;">MOVIE OR SERIES NAME:</h4>
+    <div class="input-group mb-3">
+        <input  style="background-color:yellow ;" type="text" class="form-control"name="nm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+	<!-- <p><input type="text" name="nm" /></p> -->
+    <center><button style="background-color:rgb(64, 13, 159) ;" type="submit" value="submit" class="btn btn-primary btn-lg">Submit</button></center>
+	<!-- <p><input type="submit" value="submit"/></p> -->
+</form>
+{% endblock %}
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
+

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WHERE TO WATCH</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <center><h1 style="color:rgb(25, 6, 94) ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">WHERE TO WATCH</h1></center>
+    <br>
+    <br>
+    
+
+    {% block content %}
+    <div class="container">
+        <div class="card text-center">
+            <div class="card-header" style="background-color:rgb(18, 2, 17) ;">
+    <h1 style="color:white ;">OTT PLATFORM : </h1>
+    </div>
+    <div class="card-body" style="background-color:yellow ;color: rgb(89, 15, 208);">
+        {% for name in result %}    
+         <h1>{{name}}</h1><br>
+    {% endfor %}
+{% endblock %}
+      </div>
+    </div>
+    
+        
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
+
