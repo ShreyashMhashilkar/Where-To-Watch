@@ -7,12 +7,24 @@ Steps to follow:
 
 1)Install flask using the command
 
-`pip install flask`
+```
+
+pip install flask
+
+```
 
 2)Install BeautifulSoup using the command
 
-`pip install bs4`
+```
+
+pip install bs4
+
+```
 
 3)Run the below command to start the project
 
-`py app.py`
+```
+
+py app.py
+
+```
